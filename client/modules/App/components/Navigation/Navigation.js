@@ -3,6 +3,7 @@ import React from 'react';
 import { Link } from 'react-router';
 import { FormattedMessage } from 'react-intl';
 
+import styles from './Navigation.css';
 
 const Navigation = () => {
   return (
@@ -16,7 +17,7 @@ const Navigation = () => {
   );
 };
 
- Navigation.propTypes = {
- };
+ //Navigation.propTypes = {
+ //};
 
 export default Navigation;
